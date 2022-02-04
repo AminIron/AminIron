@@ -1,0 +1,15 @@
+let arr=[1,0,1,1,0,0,0]
+let arr_update=[]
+for( let index=0;index<arr.length;index++){
+    
+    if(arr[index]==0){
+       arr_update.push(arr[index]);
+    }
+}
+for( let index=0;index<arr.length;index++){
+    
+    if(arr[index]==1){
+       arr_update.push(arr[index]);
+    }
+}
+console.log(arr_update);
